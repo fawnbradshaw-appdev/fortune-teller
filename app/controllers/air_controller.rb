@@ -2,7 +2,7 @@ class AirController < ApplicationController
   def twins
     @horoscope = "Many of your personal goals have either been met or are in progress, Gemini, and you're feeling exhilarated. However, people around you might have their hands out. You may be asked to contribute to charities or make personal loans to people you don't know well. You want to help whenever you can, but be discriminating about whom you help now. Some may be less than trustworthy."
 
-    @array_of_numbers = Array.new
+    @array_of_numbers = Array.new 
 
     5.times do
       another_number = rand(1...100)
